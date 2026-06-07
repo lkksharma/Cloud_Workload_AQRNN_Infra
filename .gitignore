@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# But recurse into directories so the rules below can match files inside them
+!*/
+
+# Whitelist Python and Jupyter sources
+!*.py
+!*.ipynb
+
+# Keep this file itself
+!.gitignore
+baselines/wgan-gp-transformer/
+baselines/cloud-forecast-lstm/
